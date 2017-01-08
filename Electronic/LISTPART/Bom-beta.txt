@@ -1,0 +1,31 @@
+Partlist
+
+Exported from board-beta.sch at 8/1/17 18:01
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device             Package    Library          Sheet
+
+CN2      1X4SMT         1X4SMT             1X4-SMT    adafruit         1
+H+T      1X4SMT         1X4SMT             1X4-SMT    adafruit         1
+J1       JACK2.1MM      JACK2.1MM          JACK_2.1MM fab              1
+JP1                     PINHD-2X3-SMD      2X03SMD    fab              1
+LCD      1X4SMT         1X4SMT             1X4-SMT    adafruit         1
+PELTIER  1X4SMT         1X4SMT             1X4-SMT    adafruit         1
+Q1       IRF630N        MOSFET-NGDS_TO220V TO220V     adafruit         1
+Q3       IRF9Z34        PMOSFET_PTO220BV   TO220BV    transistor-power 1
+Q4       IRF9734        PMOSFET_PTO220BV   TO220BV    transistor-power 1
+Q5       IRFZ44         MOSFET-NGDS_TO220V TO220V     adafruit         1
+Q6       IRFZ44         MOSFET-NGDS_TO220V TO220V     adafruit         1
+Q7       IRF630N        MOSFET-NGDS_TO220V TO220V     adafruit         1
+R1       100k           RES-US1206FAB      R1206FAB   fab              1
+R3       1k             RES-US1206FAB      R1206FAB   fab              1
+R4       1k             RES-US1206FAB      R1206FAB   fab              1
+R5       1k             RES-US1206FAB      R1206FAB   fab              1
+R6       1k             RES-US1206FAB      R1206FAB   fab              1
+R7       1k             RES-US1206FAB      R1206FAB   fab              1
+R8       0              RES-US1206FAB      R1206FAB   fab              1
+R9       1k             RES-US1206FAB      R1206FAB   fab              1
+U$1      ARDUINOUNO     ARDUINOUNO         ARDUINO    adafruit         1
