@@ -9,7 +9,7 @@
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
@@ -140,9 +140,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0.15" y1="0.01" x2="73.97" y2="0.01" width="0" layer="20"/>
-<wire x1="73.97" y1="0.01" x2="73.97" y2="59.95" width="0" layer="20"/>
-<wire x1="73.97" y1="59.95" x2="0.05" y2="60.05" width="0" layer="20"/>
+<wire x1="0.15" y1="0.01" x2="73.17" y2="-0.19" width="0" layer="20"/>
+<wire x1="73.17" y1="-0.19" x2="73.17" y2="60.15" width="0" layer="20"/>
+<wire x1="73.17" y1="60.15" x2="0.05" y2="60.05" width="0" layer="20"/>
 <wire x1="0.05" y1="60.05" x2="0.15" y2="0.01" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -340,7 +340,7 @@ grid 2.54 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="board12_1_3_5v *">
+<designrules name="board12_1_3_5v">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -413,7 +413,7 @@ design rules under a new name.</description>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
 <param name="slThermalIsolate" value="16mil"/>
-<param name="slThermalsForVias" value="1"/>
+<param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
