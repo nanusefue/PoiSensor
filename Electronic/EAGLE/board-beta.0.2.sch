@@ -1469,6 +1469,16 @@ DIN A4, landscape with location and doc. field</description>
 <text x="93.98" y="50.8" size="1.778" layer="91">Neg.</text>
 <text x="93.98" y="76.2" size="1.778" layer="91">Neg.</text>
 <text x="93.98" y="96.52" size="1.778" layer="91">Neg.</text>
+<wire x1="-53.34" y1="119.38" x2="-53.34" y2="-48.26" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="119.38" x2="22.86" y2="104.14" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="104.14" x2="22.86" y2="78.74" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="78.74" x2="22.86" y2="55.88" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="55.88" x2="22.86" y2="30.48" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="30.48" x2="22.86" y2="-48.26" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="78.74" x2="124.46" y2="78.74" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="55.88" x2="124.46" y2="55.88" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="30.48" x2="124.46" y2="30.48" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="22.86" y1="104.14" x2="124.46" y2="104.14" width="0.6096" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="LCD" gate="G$1" x="-93.98" y="27.94" rot="R180"/>
