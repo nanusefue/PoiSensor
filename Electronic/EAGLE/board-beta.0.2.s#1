@@ -1469,6 +1469,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="93.98" y="50.8" size="1.778" layer="91">Neg.</text>
 <text x="93.98" y="76.2" size="1.778" layer="91">Neg.</text>
 <text x="93.98" y="96.52" size="1.778" layer="91">Neg.</text>
+<wire x1="-53.34" y1="119.38" x2="-53.34" y2="-48.26" width="0.6096" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="LCD" gate="G$1" x="-93.98" y="27.94" rot="R180"/>
@@ -1648,6 +1649,12 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND1"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="/RESET"/>
@@ -1682,9 +1689,6 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U$1" gate="G$1" pin="GND2"/>
 <wire x1="-17.78" y1="5.08" x2="-17.78" y2="2.54" width="0.1524" layer="91"/>
 <label x="-16.24" y="-0.54" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="GND1"/>
-<wire x1="-15.24" y1="5.08" x2="-15.24" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="2.54" x2="-15.24" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
