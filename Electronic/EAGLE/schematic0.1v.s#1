@@ -1537,11 +1537,6 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <wire x1="-96.52" y1="-33.02" x2="-81.28" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-78.74" y="-33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="PELTIER" gate="G$1" pin="2"/>
-<wire x1="-88.9" y1="-5.08" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-76.2" y="-5.08" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="D10" class="0">
 <segment>
@@ -1638,14 +1633,14 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </net>
 <net name="PEL_2" class="0">
 <segment>
+<pinref part="PELTIER" gate="G$1" pin="2"/>
+<wire x1="-88.9" y1="-5.08" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-78.74" y="-5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="U$2" gate="G$1" pin="OUT2"/>
 <wire x1="76.2" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
 <label x="86.36" y="7.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="PELTIER" gate="G$1" pin="4"/>
-<wire x1="-88.9" y1="0" x2="-86.36" y2="0" width="0.1524" layer="91"/>
-<label x="-76.2" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1751,11 +1746,6 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <label x="-81.28" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PELTIER" gate="G$1" pin="1"/>
-<wire x1="-88.9" y1="-7.62" x2="-83.82" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-81.28" y="-10.16" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <label x="-38.1" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
 <wire x1="-35.56" y1="81.28" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
@@ -1771,6 +1761,20 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <pinref part="J1" gate="G$1" pin="PIN"/>
 <wire x1="-91.44" y1="-17.78" x2="-81.28" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="PELTIER" gate="G$1" pin="4"/>
+<wire x1="-88.9" y1="0" x2="-83.82" y2="0" width="0.1524" layer="91"/>
+<label x="-78.74" y="5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VCC_12" class="0">
+<segment>
+<pinref part="PELTIER" gate="G$1" pin="1"/>
+<wire x1="-88.9" y1="-7.62" x2="-83.82" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-78.74" y="-12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
