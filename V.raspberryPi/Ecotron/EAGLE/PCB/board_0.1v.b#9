@@ -906,9 +906,9 @@ design rules under a new name.</description>
 <element name="T4" library="fab_2" package="TO252" value="" x="64.5" y="14.9"/>
 <element name="T5" library="fab_2" package="TO252" value="" x="64.7" y="32"/>
 <element name="T6" library="fab_2" package="TO252" value="" x="88.4" y="31.8"/>
-<element name="J4" library="Seeed-OPL-Connector" package="HW4-2.0" value="4P-2.0" x="9.6" y="-45.9"/>
-<element name="J5" library="Seeed-OPL-Connector" package="HW4-2.0" value="4P-2.0" x="9.6" y="-59"/>
-<element name="J6" library="Seeed-OPL-Connector" package="HW4-2.0" value="4P-2.0" x="9.6" y="-72.1"/>
+<element name="J4" library="Seeed-OPL-Connector" package="HW4-2.0" value="4P-2.0" x="10" y="5.7"/>
+<element name="J5" library="Seeed-OPL-Connector" package="HW4-2.0" value="4P-2.0" x="23.5" y="5.7"/>
+<element name="J6" library="Seeed-OPL-Connector" package="HW4-2.0" value="4P-2.0" x="36.5" y="5.7"/>
 </elements>
 <signals>
 <signal name="N$1">
