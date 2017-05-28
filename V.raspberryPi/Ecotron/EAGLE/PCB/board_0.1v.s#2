@@ -1816,6 +1816,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1834,8 +1836,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="T4" gate="A" x="40.64" y="33.02"/>
 <instance part="T5" gate="A" x="40.64" y="17.78"/>
 <instance part="T6" gate="A" x="38.1" y="2.54"/>
-<instance part="J4" gate="G$1" x="185.42" y="68.58"/>
-<instance part="J5" gate="G$1" x="167.64" y="71.12"/>
+<instance part="J4" gate="G$1" x="192.024" y="69.85"/>
+<instance part="J5" gate="G$1" x="168.91" y="69.85"/>
 <instance part="J6" gate="G$1" x="148.59" y="69.85"/>
 <instance part="U4" gate="A" x="116.84" y="53.34"/>
 <instance part="SUPPLY1" gate="GND" x="106.68" y="154.94"/>
@@ -1843,6 +1845,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY3" gate="GND" x="43.18" y="154.94"/>
 <instance part="SUPPLY4" gate="GND" x="91.44" y="17.78"/>
 <instance part="SUPPLY5" gate="GND" x="139.7" y="58.42"/>
+<instance part="SUPPLY6" gate="GND" x="160.02" y="58.42"/>
+<instance part="SUPPLY7" gate="GND" x="182.88" y="58.42"/>
 </instances>
 <busses>
 </busses>
@@ -1910,6 +1914,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="144.78" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="66.04" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="60.96" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="160.02" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="187.96" y1="66.04" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<wire x1="182.88" y1="66.04" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO17" class="0">

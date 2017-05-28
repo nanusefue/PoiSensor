@@ -1836,7 +1836,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="T4" gate="A" x="40.64" y="33.02"/>
 <instance part="T5" gate="A" x="40.64" y="17.78"/>
 <instance part="T6" gate="A" x="38.1" y="2.54"/>
-<instance part="J4" gate="G$1" x="192.024" y="69.85"/>
+<instance part="J4" gate="G$1" x="191.77" y="69.85"/>
 <instance part="J5" gate="G$1" x="168.91" y="69.85"/>
 <instance part="J6" gate="G$1" x="148.59" y="69.85"/>
 <instance part="U4" gate="A" x="116.84" y="53.34"/>
@@ -1925,6 +1925,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="187.96" y1="66.04" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="182.88" y1="66.04" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="GPIO17" class="0">
