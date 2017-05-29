@@ -2013,12 +2013,6 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <part name="R3" library="fab" deviceset="RES-US" device="1206FAB"/>
 <part name="C3" library="fab" deviceset="CAP-US" device="1206FAB"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="R4" library="fab" deviceset="RES-US" device="1206FAB"/>
-<part name="R5" library="fab" deviceset="RES-US" device="1206FAB"/>
-<part name="R6" library="fab" deviceset="RES-US" device="1206FAB"/>
-<part name="R7" library="fab" deviceset="RES-US" device="1206FAB"/>
-<part name="R8" library="fab" deviceset="RES-US" device="1206FAB"/>
-<part name="R9" library="fab" deviceset="RES-US" device="1206FAB"/>
 </parts>
 <sheets>
 <sheet>
@@ -2030,12 +2024,12 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <instance part="U1" gate="G$1" x="129.54" y="185.42"/>
 <instance part="U3" gate="G$1" x="48.26" y="203.2" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="-5.08" y="-12.7"/>
-<instance part="T1" gate="A" x="81.28" y="66.04"/>
-<instance part="T2" gate="A" x="45.72" y="66.04"/>
-<instance part="T3" gate="A" x="45.72" y="10.16"/>
-<instance part="T4" gate="A" x="81.28" y="38.1"/>
-<instance part="T5" gate="A" x="45.72" y="38.1"/>
-<instance part="T6" gate="A" x="81.28" y="10.16"/>
+<instance part="T1" gate="A" x="22.86" y="33.02"/>
+<instance part="T2" gate="A" x="22.86" y="17.78"/>
+<instance part="T3" gate="A" x="22.86" y="2.54"/>
+<instance part="T4" gate="A" x="40.64" y="33.02"/>
+<instance part="T5" gate="A" x="40.64" y="17.78"/>
+<instance part="T6" gate="A" x="38.1" y="2.54"/>
 <instance part="J4" gate="G$1" x="364.49" y="44.45"/>
 <instance part="J5" gate="G$1" x="334.01" y="44.45"/>
 <instance part="J6" gate="G$1" x="300.99" y="44.45"/>
@@ -2055,12 +2049,6 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <instance part="R3" gate="G$1" x="203.2" y="210.82" rot="R90"/>
 <instance part="C3" gate="G$1" x="167.64" y="228.6"/>
 <instance part="SUPPLY3" gate="GND" x="180.34" y="220.98"/>
-<instance part="R4" gate="G$1" x="68.58" y="7.62" rot="R180"/>
-<instance part="R5" gate="G$1" x="33.02" y="7.62" rot="R180"/>
-<instance part="R6" gate="G$1" x="33.02" y="35.56" rot="R180"/>
-<instance part="R7" gate="G$1" x="33.02" y="63.5" rot="R180"/>
-<instance part="R8" gate="G$1" x="68.58" y="63.5" rot="R180"/>
-<instance part="R9" gate="G$1" x="68.58" y="35.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2784,156 +2772,6 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <pinref part="U4" gate="A" pin="SDA"/>
 <wire x1="172.72" y1="144.78" x2="180.34" y2="144.78" width="0.1524" layer="91"/>
 <label x="182.88" y="144.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="T2" gate="A" pin="G"/>
-<wire x1="38.1" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$64" class="0">
-<segment>
-<pinref part="T5" gate="A" pin="G"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="T1" gate="A" pin="G"/>
-<wire x1="73.66" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="T4" gate="A" pin="G"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$67" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="T3" gate="A" pin="G"/>
-<wire x1="38.1" y1="7.62" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="T6" gate="A" pin="G"/>
-<wire x1="73.66" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="7.62" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$70" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$72" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$73" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$74" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$75" class="0">
-<segment>
-<pinref part="T2" gate="A" pin="D"/>
-<wire x1="45.72" y1="71.12" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$76" class="0">
-<segment>
-<pinref part="T2" gate="A" pin="S"/>
-<wire x1="45.72" y1="60.96" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$77" class="0">
-<segment>
-<pinref part="T1" gate="A" pin="D"/>
-<wire x1="81.28" y1="71.12" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$78" class="0">
-<segment>
-<pinref part="T1" gate="A" pin="S"/>
-<wire x1="81.28" y1="60.96" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$79" class="0">
-<segment>
-<pinref part="T5" gate="A" pin="S"/>
-<wire x1="45.72" y1="33.02" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$80" class="0">
-<segment>
-<pinref part="T4" gate="A" pin="S"/>
-<wire x1="81.28" y1="33.02" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$81" class="0">
-<segment>
-<pinref part="T3" gate="A" pin="S"/>
-<wire x1="45.72" y1="5.08" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$82" class="0">
-<segment>
-<pinref part="T6" gate="A" pin="S"/>
-<wire x1="81.28" y1="5.08" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$83" class="0">
-<segment>
-<pinref part="T3" gate="A" pin="D"/>
-<wire x1="45.72" y1="15.24" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$84" class="0">
-<segment>
-<pinref part="T6" gate="A" pin="D"/>
-<wire x1="81.28" y1="15.24" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$85" class="0">
-<segment>
-<pinref part="T5" gate="A" pin="D"/>
-<wire x1="45.72" y1="43.18" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$86" class="0">
-<segment>
-<pinref part="T4" gate="A" pin="D"/>
-<wire x1="81.28" y1="43.18" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
