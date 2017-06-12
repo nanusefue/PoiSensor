@@ -822,6 +822,16 @@ at 30/07/2012 14:27:46</description>
 <text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
 <text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
 </package>
+<package name="R1206FAB">
+<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.127" layer="21"/>
+<smd name="1" x="-1.651" y="0" dx="1.27" dy="1.905" layer="1"/>
+<smd name="2" x="1.651" y="0" dx="1.27" dy="1.905" layer="1"/>
+<text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1037,6 +1047,10 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="fab" package="C1206FAB" value="CAP-US1206FAB" x="2.4" y="-4.1"/>
 <element name="C2" library="fab" package="C1206FAB" value="CAP-US1206FAB" x="2.4" y="-10.5"/>
+<element name="R1" library="fab" package="R1206FAB" value="" x="2.4" y="-16.9"/>
+<element name="R2" library="fab" package="R1206FAB" value="" x="2.4" y="-23.3"/>
+<element name="R3" library="fab" package="R1206FAB" value="" x="2.4" y="-29.7"/>
+<element name="C3" library="fab" package="C1206FAB" value="CAP-US1206FAB" x="2.4" y="-42.5"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1250,6 +1264,37 @@ design rules under a new name.</description>
 <contactref element="U3" pad="2"/>
 <contactref element="C2" pad="1"/>
 <wire x1="0.749" y1="-10.5" x2="5.825" y2="26.2822" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="U1" pad="8"/>
+<contactref element="C3" pad="1"/>
+<wire x1="10.05" y1="18.9" x2="0.749" y2="-42.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$28">
+<contactref element="C3" pad="2"/>
+</signal>
+<signal name="N$29">
+<contactref element="U1" pad="10"/>
+<contactref element="R1" pad="1"/>
+<wire x1="0.749" y1="-16.9" x2="10.05" y2="19.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="U1" pad="9"/>
+<contactref element="R2" pad="1"/>
+<wire x1="0.749" y1="-23.3" x2="10.05" y2="19.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="R1" pad="2"/>
+<contactref element="R2" pad="2"/>
+<wire x1="4.051" y1="-16.9" x2="4.051" y2="-23.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$33">
+<contactref element="U1" pad="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="5.95" y1="19.9" x2="0.749" y2="-29.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$34">
+<contactref element="R3" pad="2"/>
 </signal>
 </signals>
 </board>
