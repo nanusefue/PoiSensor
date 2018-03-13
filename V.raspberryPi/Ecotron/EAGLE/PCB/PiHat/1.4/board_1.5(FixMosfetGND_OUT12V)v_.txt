@@ -1,0 +1,44 @@
+Partlist exported from /home/nanu/Projects/PoiSensor/V.raspberryPi/Ecotron/EAGLE/PCB/PiHat/1.4/board_1.5(FixMosfetGND_OUT12V)vP.sch at 19/12/17 8:21
+
+Part   Value                Device                          Package              Description                                    MPN               OC_FARNELL OC_NEWARK PACKAGE  PROD_ID  SUPPLIER VALUE    
+1-WIRE                      PINHD-2X2                       2X02                 PIN HEADER                                                                                                                
+ADC                         PINHD-2X2                       2X02                 PIN HEADER                                                                                                                
+ADC-1                       PINHD-2X2                       2X02                 PIN HEADER                                                                                                                
+C1     1uf                  CERAMIC-1UF-25V-10%-X7R(0805)   C0805                302010179                                      CC0805KKX7R8BB105                                                 1uf      
+C2     1uf                  CERAMIC-1UF-25V-10%-X7R(0805)   C0805                302010179                                      CC0805KKX7R8BB105                                                 1uf      
+C3     100nf                CERAMIC-100NF-50V-10%-X7R(0805) C0805                302010165                                      CC0805KRX7R9BB104                                                 100nf    
+C4     10uf                 CERAMIC-1UF-25V-10%-X7R(0805)   C0805                302010179                                      CC0805KKX7R8BB105                                                 1uf      
+C5     100nf                CERAMIC-100NF-50V-10%-X7R(0805) C0805                302010165                                      CC0805KRX7R9BB104                                                 100nf    
+C6     10uf                 CERAMIC-1UF-25V-10%-X7R(0805)   C0805                302010179                                      CC0805KKX7R8BB105                                                 1uf      
+D2     HSMF-C118            SMD-LED-RGB(4P-1210)            LED4-SMD-1210        304090035                                      HSMF-C118                                                         HSMF-C118
+I2C-0  4P-2.0               GROVE-CONNECTOR-DIP(4P-2.0)     HW4-2.0              320110033                                                                                                        4P-2.0   
+I2C-1  4P-2.0               GROVE-CONNECTOR-DIP(4P-2.0)     HW4-2.0              320110033                                                                                                        4P-2.0   
+I2C-2  4P-2.0               GROVE-CONNECTOR-DIP(4P-2.0)     HW4-2.0              320110033                                                                                                        4P-2.0   
+I2C-3  4P-2.0               GROVE-CONNECTOR-DIP(4P-2.0)     HW4-2.0              320110033                                                                                                        4P-2.0   
+JP1    JUMPER-SMT_3_NO_SILK JUMPER-SMT_3_NO_SILK            SMT-JUMPER_3_NO_SILK Normally open jumper                                                                                                      
+JP2    JUMPER-SMT_3_NO_SILK JUMPER-SMT_3_NO_SILK            SMT-JUMPER_3_NO_SILK Normally open jumper                                                                                                      
+MOSFET MOSFET               PINHD-2X2                       2X02                 PIN HEADER                                                                                                                
+OUTPUT PINSOUT              PINHD-2X4                       2X04                 PIN HEADER                                                                                                                
+PWD                         PINHD-2X2                       2X02                 PIN HEADER                                                                                                                
+PWM    PWM                  PINHD-2X4                       2X04                 PIN HEADER                                                                                                                
+R1     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R2     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R3     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R4     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R5     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R6     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R7     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R8     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R9     10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R10    10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+R11    10K                  SMD-RES-10K-1%-1/8W(0805)       R0805                301010361                                      RC0805FR-0710KL                                                   10K      
+RPI    GPIO                 PINHD-2X20                      2X20                 PIN HEADER                                                                                                                
+T1     T1                   NMOSFETTO252                    TO252                MOS FET                                                                                                                   
+T2     T2                   NMOSFETTO252                    TO252                MOS FET                                                                                                                   
+T4     MOSFET-N             MOSFET-N                        SOT-23                                                                                                                                         
+T6     MOSFET-N             MOSFET-N                        SOT-23                                                                                                                                         
+U1     ADS1015              ADS1015                         MSOP10               ADS1015 12-BIT ADC                                                                             IC-12270          ADS1015  
+U2     PCA9685              PCA9685                         TSSOP28              PCA9685 - 16 Channel 12-Bit I2C PWM Controller                                                                            
+U3     TXB0108              TXB0108PWR                      TSSOP20              8-Bit Bi-Directional Level Shifter                                                                                        
+U4     PCA9546APW,112       PCA9546APW,112                  SOP65P640X110-16N    4-channel I2C-bus switch with reset            PCA9546APW,112    1831208    70R6610   TSSOP-16          NXP               
+U5     ADS1015              ADS1015                         MSOP10               ADS1015 12-BIT ADC                                                                             IC-12270          ADS1015  
